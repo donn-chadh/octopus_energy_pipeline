@@ -19,7 +19,7 @@ The infrastructure is packaged via Docker, hosted on AWS ECR, executed by AWS La
 - The solution: Used OS package with .getenv and a requirements.txt file saved locally with my variables, however, this also became problematic as AWS would not be able to read my local files so I updated the information to Enviroment Variables within AWS. 
 
 ### 3. Fixed a code cut off bug
-- The problem: The new tariff data was complaetly missing. This happened because a return command was placed inside the loop. The code would grab the Bulb data, hit that return command, and immediately shut down before it ever got a chance to look as the new tariff data.
+- The problem: The new tariff data was completly missing. This happened because a return command was placed inside the loop. The code would grab the Bulb data, hit that return command, and immediately shut down before it ever got a chance to look as the new tariff data.
 - The solution: I moved that return command to the bottom. Now the code is forced to finish checking both tariff codes in the list before it stops running.
 
 ### 4. Fixed Docker
