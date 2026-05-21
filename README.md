@@ -61,6 +61,6 @@ The pipeline loads data into three distinct tables in Neon PostgreSQL
 - Standing Charges: Stores the daily fixed connection fees. (boo)
  
 ## What I learned
-- Things go wrong all the time - expect it and use a diagnostic cell to debug
-- Dirty variables are a thing and you need to reset or force thriough some changes from time to time
+- Things go wrong all the time - expect it and use a diagnostic cell to debug.
+- Dirty variables are a thing and you need to reset or force through some changes from time to time.
 - Best practise for README files is to write as you go i.e end of day log the changes you made.
